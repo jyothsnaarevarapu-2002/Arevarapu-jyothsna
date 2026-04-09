@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+        }
+        .login-box {
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        h2 {
+            text-align: center;
+            color: #2d3436;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: lightsalmon;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: light pink;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Login</h2>
+
+    <form>
+        <label>Username:</label>
+        <input type="text" placeholder="Enter username" required>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password" required>
+
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+</body>
+</html>
